@@ -1,6 +1,5 @@
-import { ConnectingAirportsOutlined } from "@mui/icons-material";
 import { NextResponse } from "next/server";
-import { createClient } from "../utils/supabase/client";
+// import { createClient } from "../utils/supabase/client";
 
 export default async function middleware(req: any) {
   const { pathname } = req.nextUrl;
